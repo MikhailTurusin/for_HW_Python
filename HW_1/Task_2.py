@@ -9,7 +9,7 @@
 # 60 -> 10 40 10
 
 number = int(input("Сколько всего журавликов сделали дети: "))
-if number % 3 != 0 or number % 2 != 0:
+if number % 6 != 0:
     print("Некорректный ввод")
 else:
     numberP_S = int(number/3/2)
