@@ -13,4 +13,4 @@ if number % 6 != 0:
     print("Некорректный ввод")
 else:
     numberP_S = number // 6
-    print(f"Петя и Сережа сделали по {numberP_S}, а Катя сделала {numberP_S*4}")
+    print(f"Петя и Сережа сделали по {numberP_S}, а Катя сделала {numberP_S * 4}")
