@@ -12,10 +12,11 @@ number = int(input("Введите номер билета: "))
 
 if number < 100000 or number > 999999:
     print("Номер билета должен быть шестизначный")
-else : 
-    number=str(number)
-    number1=(int(number[0])+int(number[1])+int(number[2]))
-    number2=(int(number[3])+int(number[4])+int(number[5]))
-    if number1==number2 :
+else:
+    number = str(number)
+    number1 = (int(number[0])+int(number[1])+int(number[2]))
+    number2 = (int(number[3])+int(number[4])+int(number[5]))
+    if number1 == number2:
         print(f"Билет {number} счастливый -> YES")
-    else : print (f"Билет {number} несчастливый -> NO")
+    else:
+        print(f"Билет {number} несчастливый -> NO")
