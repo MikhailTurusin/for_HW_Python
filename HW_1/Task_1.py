@@ -15,5 +15,5 @@ print(sum)
 
 # Второй вариант решения через строки:
 
-# number=(input("Введите число: "))
-# print(int(number[0])+int(number[1])+int(number[2]))
+# number = input("Введите число: ")
+# print(int(number[0]) + int(number[1]) + int(number[2]))
