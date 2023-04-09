@@ -16,5 +16,6 @@ else :
     number=str(number)
     number1=(int(number[0])+int(number[1])+int(number[2]))
     number2=(int(number[3])+int(number[4])+int(number[5]))
-    if number1==number2 : print(f"Билет {number} счастливый -> YES")
+    if number1==number2 :
+        print(f"Билет {number} счастливый -> YES")
     else : print (f"Билет {number} несчастливый -> NO")
