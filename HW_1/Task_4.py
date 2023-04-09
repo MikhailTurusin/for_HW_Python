@@ -9,7 +9,7 @@
 number1 = int(input("Введите длину шоколадки n: "))
 number2 = int(input("Введите ширину шоколадки m: "))
 
-number1_2 = int(number1*number2)
+number1_2 = number1 * number2
 print(f"Размер шоколадки {number1*number2} долек")
 
 number3 = int(input("Сколько долек k Вы хотите отломить от шоколадки: "))
