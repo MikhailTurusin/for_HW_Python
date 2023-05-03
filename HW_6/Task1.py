@@ -16,7 +16,6 @@ num3 = int(input('Введите количество элементов: '))
 list_1 = []
 
 for i in range(num3):
-    res = 0
     res = num1 + i * num2
     list_1.append(res)
 
